@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    font-family: 'Acme', sans-serif;
+    
+   
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.form-control {
+    outline: none;
+}
+
+
+/*
+font-family: 'Ubuntu',
+sans-serif;
+font-family: 'PT Serif',
+serif;
+font-family: 'ZCOOL QingKe HuangYou',
+cursive;
+font-family: 'Sacramento',
+cursive;
+font-family: 'Acme',
+sans-serif;
+*/
+
+.link-head {
+    font-size: 2.5rem;
+}
+
+.link-login {
+    margin-top: 5rem;
+}
+
+.error {
+    background-color: blue;
+}
+.header{
+    /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
+    /* background-color: #ff867a; */
+    background-color: rgba(0, 0, 0, .1);
+}
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 10px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; 
+  }
+  .sidebar-sticky i{
+    padding-right: 1rem;
+    float: left;
+}
+.sidebar-sticky li{
+    text-align: left;
+}
+.sidebar{
+    /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
+    /* background-color: #ff8177; */
+    background-color: rgba(0, 0, 0, .1);
+}
+h3{
+    padding: 2rem;
+}
