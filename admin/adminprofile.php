@@ -23,7 +23,7 @@ if (!isset($_SESSION['username'])) {
             </a>
         </div>
         <div class="db dtc-l v-mid  w-50-l tc tr-l">
-            <a class="link dim dark-gray f3 dib mr3 mr4-l" href="#"><?php echo $admin['name']; ?> </a>
+            <a class="link dim dark-gray f3 dib mr3 mr4-l" href="adminprofile.php"><?php echo $admin['name']; ?> </a>
 
             <a class="link dim dark-gray f3 dib mr3 mr4-l" href="logout.php" title="Log Out">Log Out</a>
         </div>

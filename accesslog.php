@@ -22,7 +22,7 @@ if (!isset($_SESSION['email'])) {
             </a>
         </div>
         <div class="db dtc-l v-mid  w-50-l tc tr-l">
-            <a class="link dim dark-gray f3 dib mr3 mr4-l" href="#" title="User"><?php echo $user['name']; ?> </a>
+            <a class="link dim dark-gray f3 dib mr3 mr4-l" href="studentdetails.php" title="User"><?php echo $user['name']; ?> </a>
             <a class="link dim dark-gray f3 dib mr3 mr4-l" href="logout.php" title="Log Out">Log Out</a>
         </div>
     </nav>
@@ -32,10 +32,10 @@ if (!isset($_SESSION['email'])) {
     <h3 class="text-center">Access Logs</h3>
     <div class="container-fluid">
     <?php 
-    $logfile_dir = "user.log"; 
-    $logfile = $logfile_dir . "php_" . $email . ".log";
+    $logfile_dir = "logs/user.log"; 
+    $logfile = $logfile_dir . "php" . $email . ".log";
 
-    $filestring = file_get_contents($logfile_dir . "php_" . $email . ".log");
+    $filestring = file_get_contents($logfile_dir . "php" . $email . ".log");
     $filearray = explode("\n", $filestring);
 
     while (list($var, $val) = each($filearray)) {

@@ -20,12 +20,12 @@ if (!isset($_SESSION['email'])) {
                 </a>
             </div>
             <div class="db dtc-l v-mid  w-50-l tc tr-l">
-                <a class="link dim dark-gray f3 dib mr3 mr4-l" href="#" title="User"><?php echo $user['name']; ?> </a>
+                <a class="link dim dark-gray f3 dib mr3 mr4-l" href="studentdetails.php" title="User"><?php echo $user['name']; ?> </a>
                 <a class="link dim dark-gray f3 dib mr3 mr4-l" href="logout.php" title="Log Out">Log Out</a>
             </div>
         </nav>
     </div>
-    <?php require_once 'sidebar.php' ?>
+    <?php require_once 'sidebar.php' ;?>
 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 shadow-5">
     <h3 class="text-center">Hostel Details</h3>
     <?php

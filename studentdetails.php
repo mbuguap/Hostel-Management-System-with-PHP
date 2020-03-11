@@ -21,7 +21,7 @@ if (!isset($_SESSION['email'])) {
             </a>
         </div>
         <div class="db dtc-l v-mid  w-50-l tc tr-l">
-            <a class="link dim dark-gray f3 dib mr3 mr4-l" href="#" title="User"><?php echo $user['name']; ?> </a>
+            <a class="link dim dark-gray f3 dib mr3 mr4-l" href="studentdetails.php" title="User"><?php echo $user['name']; ?> </a>
             <a class="link dim dark-gray f3 dib mr3 mr4-l" href="logout.php" title="Log Out">Log Out</a>
         </div>
     </nav>

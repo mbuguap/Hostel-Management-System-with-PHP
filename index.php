@@ -39,12 +39,12 @@ if(isset($_POST['login'])) {
 
         $error_message = date("F j, Y, g:i a").", Student Id: "."$student_id".", Email: "."$email".", Name: "."$name".", IP_Address: "."$ip_address".", Browser: "."$browser".", City: "."$city".", Country: "."$country".PHP_EOL; 
   
-        $log_file = "access.log"; 
+        $log_file = "logs/access.log"; 
         
         error_log($error_message, 3, $log_file); 
 
-        $logfile_dir = "user.log"; 
-        $logfile = $logfile_dir . "php_" . $email . ".log";
+        $logfile_dir = "logs/user.log"; 
+        $logfile = $logfile_dir . "php" . $email . ".log";
     
         function error_handler($errno, $errstr, $errfile, $errline)
         {
